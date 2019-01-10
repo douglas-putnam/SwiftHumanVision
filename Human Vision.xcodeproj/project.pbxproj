@@ -12,6 +12,7 @@
 		5FB238FD21E7A29200914126 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FB238FB21E7A29200914126 /* Main.storyboard */; };
 		5FB238FF21E7A29400914126 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FB238FE21E7A29400914126 /* Assets.xcassets */; };
 		5FB2390221E7A29400914126 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FB2390021E7A29400914126 /* LaunchScreen.storyboard */; };
+		5FB2390A21E7A75400914126 /* PersonVsRobotClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5FB2390921E7A75400914126 /* PersonVsRobotClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5FB238FE21E7A29400914126 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5FB2390121E7A29400914126 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5FB2390321E7A29400914126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FB2390921E7A75400914126 /* PersonVsRobotClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = PersonVsRobotClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				5FB238FE21E7A29400914126 /* Assets.xcassets */,
 				5FB2390021E7A29400914126 /* LaunchScreen.storyboard */,
 				5FB2390321E7A29400914126 /* Info.plist */,
+				5FB2390921E7A75400914126 /* PersonVsRobotClassifier.mlmodel */,
 			);
 			path = "Human Vision";
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			files = (
 				5FB238FA21E7A29200914126 /* ViewController.swift in Sources */,
 				5FB238F821E7A29200914126 /* AppDelegate.swift in Sources */,
+				5FB2390A21E7A75400914126 /* PersonVsRobotClassifier.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
